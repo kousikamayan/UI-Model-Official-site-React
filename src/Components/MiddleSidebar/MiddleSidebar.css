@@ -1,0 +1,111 @@
+.middlesidebar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    width: 500px;
+    
+  
+    margin-bottom: -540px;
+    font-family: "Poppins";
+    
+
+   
+   
+}
+.middlesidebar-artpost{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    background: white;
+    height: 500px;
+   
+    
+    padding: 15px;
+    margin-top: 10px;
+    border-radius: 10px;
+    gap: 10px;
+
+    
+}
+.middlesidebar-artistpost{
+    display: flex;
+    
+   align-items: center;
+   gap: 230px;
+   
+}
+
+.middlesidebar-artistpost img{
+    margin-right:-80px;
+}
+.middlesidebar-artist{
+    display: flex;
+    flex-direction: column;
+    
+    margin-top: -30px;
+    margin-right: 30px;
+
+}
+.middlesidebar-artist p{
+    margin-bottom: -15px;
+    margin-left: -130px;
+    font-size: 15px;
+    
+   
+
+}
+
+
+.middlesidebar-navigation{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5px;
+   
+   
+
+}
+.middlesidebar-dot{
+    border: 2px solid black;
+    border-radius: 2px;
+   
+
+}
+.middlesidebar-post1{
+    background: url("../../assets/images/humprey.png");
+    width: 100%;
+    height:300px ;
+    border-radius: 10px;
+}
+.middlesidebar-post2{
+    background: url('../../assets//images/tobias.png');
+    width: 100%;
+    height:300px ;
+    border-radius: 10px;
+}
+
+.middlesidebar-artpostdetails{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-left: -260px;
+
+}
+.middlesidebar-scrollbar{
+    margin-top: 10px;
+}
+.scrollbar-item{
+    display: flex;
+    flex-direction: row;
+    width:100%;
+    overflow-y: auto;
+    max-width: 500px;
+    gap: 10px;
+    
+    
+}

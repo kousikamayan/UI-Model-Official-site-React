@@ -1,0 +1,19 @@
+.artItem{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.artbanner{
+    width: 250px;
+    height: 180px;
+    object-fit: cover;
+
+}
+.artitem-rate{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 120px;
+}

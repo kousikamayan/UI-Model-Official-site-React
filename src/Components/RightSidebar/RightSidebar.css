@@ -1,0 +1,125 @@
+.rightsidebar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+ 
+    width: 250px;
+    
+    height: 800px;
+    font-family: "Poppins";
+    
+}
+.rightsidebar-content{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+
+    gap: 10px;
+    width: 100%;
+   
+}
+.rightsidebar-content p{
+    font-size: 15px;
+    font-weight: 600;
+}
+.rightsidebar-scrollitems{
+    display: flex;
+    flex-direction: column;
+ 
+    max-height: 500px;
+
+    overflow-y: auto;
+
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+
+}
+.rightsidebar-art1{
+    background: url('../../assets/images/ekaterina.png');
+    width: 230px;
+    height: 120px;
+    border-radius: 15px;
+}
+.rightsidebar-art2{
+    background: url('../../assets/images/pixabay.png');
+    width: 230px;
+    height: 120px;
+    border-radius: 15px;
+}
+.rightsidebar-art3{
+    background: url('../../assets/images/fiona.png');
+    width: 230px;
+    height: 120px;
+    border-radius: 15px;
+}
+.rightsidebar-art4{
+    background: url('../../assets/images/stevejhonson.png');
+    width: 230px;
+    height: 1220px;
+    border-radius: 15px;
+}
+.rightsidebar-art5{
+    background: url('../../assets/images/genaro.png');
+    width: 230px;
+    height: 120px;
+    border-radius: 15px;
+}
+.rightsidebar-art6{
+    background: url('../../assets/images/humprey.png');
+    width: 230px;
+    height: 120px;
+    border-radius: 15px;
+}
+.rightsidebar-art7{
+    background: url('../../assets/images/tobias.png');
+    width: 230px;
+    height: 120px;
+    border-radius: 15px;
+}
+
+.rightsidebar-arts-artist{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 50px;
+    margin-left: 10px;
+    gap:2px;
+    
+}
+.rightsidebar-arts-artist img{
+    height: 48px;
+    width: 48px;
+}
+
+.rightsidebar-arts-artist p{
+    margin-bottom: -6px;
+    margin-left: 10px;
+    font-size: 15px;
+    font-weight: 400;
+    color: white;
+}
+.rightsidebar-info{
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: space-between;
+    gap: 10px;
+}
+.rightsidebar-info p{
+    font-size: 10px;
+    font-weight: 200;
+    
+    color:#808080;
+
+}
+.box{
+    border: 6px solid rgb(0, 255, 166);
+    border-radius: 6px;
+    display: flex;
+    margin-top: -40px;
+    margin-left: -10px;
+
+}
